@@ -2,49 +2,84 @@ html {
   font-size: 100%;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(247, 153, 110);
 }
 
+
 body {
+  display: grid;
+  grid-template-columns: 1fr 700px 1fr;
+  grid-template-rows: 1fr 500px 1fr ;
   margin: auto;
   padding: 5px;
   min-height: 100vh;
-  background: #555;
 }
-
-.content {
-  max-width: 800px;
-  margin: auto;
-  background: white;
-  padding-right: 30px;
-   padding-left: 90px;
-   padding-top: 30px;
-   padding-bottom: 30px;
+h2 {
+  border-bottom: solid;
+  border-color: rgb(247, 153, 110);
+  text-shadow: 2px 2px rgb(247, 153, 110);
 }
-h1 {
+a{
+  color: rgb(247, 153, 110);
+  
+}
+a:hover {
+  color: dodgerblue;
+}
+main {
+  grid-row: 2;
+  grid-column: 2/3;
+  text-align: left;
+  padding-top: 30px;
   color: white;
-  margin: 0, auto;
-   background-color: DodgerBlue;
-   width:400px;
-   height: 50px;
-   padding-right: 40px;
-   padding-left: 210px;
-   padding-top: 40px;
-   padding-bottom: 40px;
-   border-radius: 25px;
-   box-shadow: 0px 0px 15px 15px rgb(192, 186, 186);
+}
 
+header {
+  display: grid;
+  grid-row: 1;
+  grid-column: 1/4;
+  grid-template-columns: 1fr 700px 1fr;
 }       
 
-footer {
+.me {
+  grid-row: 1;
+  grid-column:1 ;
+  padding: 40px;
+  grid-row: 1;
+  grid-column:2/3; 
+  height: 172px;
+  width: 127px;
+}
+.name {
+  grid-row: 1;
+  grid-column:2/3 ;
+  color: rgb(48, 116, 115);
   margin: 0, auto;
-   background-color: DodgerBlue;
-   width:400px;
-   height: 10px;
-   padding-right: 30px;
-   padding-left: 90px;
-   padding-top: 30px;
-   padding-bottom: 30px;
+  height: 50px;
+  padding: 80px;
+  padding-left: 150px;
+
+   background-color: rgb(247, 240, 109);
    border-radius: 25px;
-   box-shadow: 0px 0px 15px 15px gray;
-   line-height: 30%;
+   box-shadow: 0px 0px 15px 15px rgb(82, 78, 78);
+}
+
+footer {
+  color: rgb(48, 116, 115);
+  text-align: center;
+  margin: 0, auto;
+  background-color: rgb(247, 240, 109);
+  padding-top: 35px;
+  height: 55px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 15px 15px rgb(82, 78, 78);
+  line-height: 30%;
+  grid-row: 3;
+  grid-column: 2;
+
+}
+body {
+  width: 900px;
+  background-color: rgb(48, 116, 115);
+  text-align: center;
 }
