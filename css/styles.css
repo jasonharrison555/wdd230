@@ -15,6 +15,7 @@ body {
   margin: auto;
   padding: 5px;
   min-height: 100vh;
+ 
 }
 .title {
   border-bottom: solid;
@@ -35,6 +36,7 @@ main {
   text-align: left;
   padding-top: 30px;
   color: white;
+  
 }
 
 header {
