@@ -20,11 +20,11 @@ body {
 .title {
   border-bottom: solid;
   border-color: rgb(247, 153, 110);
-  text-shadow: 2px 2px rgb(247, 153, 110);
+  
   grid-column: 1/4;
 }
 a{
-  color: rgb(247, 153, 110);
+  color: white;
   
 }
 a:hover {

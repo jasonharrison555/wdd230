@@ -1,3 +1,31 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (min-width: 400px) {
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+
+nav a {
+    font-size: 1rem;
+border-radius: 15px;
+
+}
+
+nav a:hover {
+        
+color: #36454f; 
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+} 
+
+div {
+    margin: 10px;
+    
+}
 
 }
