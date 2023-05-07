@@ -27,9 +27,12 @@ header {text-align: center;
     color: rgb(48, 116, 115);;
     border-radius: 15px;
     box-shadow: 0px 0px 15px 15px rgb(192, 186, 186);
+    padding-top: 7px ;
 }
 
-
+.title2 {
+    padding: -25px;
+}
 div{
     border-radius: 20px;
     background-color:rgb(216, 212, 212);
@@ -64,6 +67,7 @@ footer {
 .home {
     color: white;
 }
+
 
 
 p {
@@ -108,4 +112,33 @@ padding: 0.75rem;
 text-decoration: none;
 font-size: 0.95rem;
 
+}
+
+.logo {
+    width: 100%;
+}
+.color {
+    width: 100%;
+}
+.exback{
+    border-radius: 20px;
+    background-color:#6c969d;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.exp{
+    color: #212227;
+    padding: 10px;
+    font: "lato-light";
+}
+
+.extitle {
+    background-color: #faff81;   
+    margin-top: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px;  
+    color: #212227;
+    
 }
