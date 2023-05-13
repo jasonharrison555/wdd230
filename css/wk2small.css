@@ -30,9 +30,6 @@ header {text-align: center;
     padding-top: 7px ;
 }
 
-.title2 {
-    padding: -25px;
-}
 div{
     border-radius: 20px;
     background-color:rgb(216, 212, 212);
@@ -130,7 +127,6 @@ font-size: 0.95rem;
 .exp{
     color: #212227;
     padding: 10px;
-    font: "lato-light";
 }
 
 .extitle {
