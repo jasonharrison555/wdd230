@@ -18,7 +18,7 @@ html {
     padding: 15px;
     column-gap: 15px;
     row-gap: 10px;
-    height: 700px;
+    height: 750px;
     
   }
 
@@ -36,6 +36,7 @@ main {
   background-size: cover;
 
   background-repeat: no-repeat;
+  
 }
 
 div {
@@ -97,14 +98,29 @@ ul {
     background-color:#6c969d;
     font-size: smaller;
     grid-row: 1;
-    opacity: 0.6;
+    background-image: url('../images/driggsid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 1fr 1fr 70px;
 }
-
+p{
+  font-size: larger;
+}
+.herobutton {
+  padding: 20px;
+}
+.herobutton:hover {
+  background-color: #ffc53f;
+  }
 .event{
   background-color:#6c969d;
     grid-row: 2;
 }
 .weather{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 50px 50px 50px 50px ;
   background-color:#6c969d;
     grid-row: 3;
 }
@@ -115,6 +131,26 @@ ul {
 .join{
   background-color:#6c969d;
     grid-row: 5;
+    text-align: center;
+    padding-top: 25px;
+}
+.pjoin{
+  font-size: large;
+}
+button {
+  background: #faff81;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 900;
+  padding: 30px 70px;
+  transition-duration: 0.4s;
+  box-shadow: 0px 0px 15px 15px rgb(39, 38, 38)
+  
+}
+.joinbutton:hover {
+background-color: #ffc53f;
 }
 
   .spotlight1{
@@ -133,11 +169,62 @@ ul {
     grid-row: 8;
     border: 1px solid rgba(0, 0, 0, 0.8);
 }
-
+.icon {
+  grid-column: 1;
+  grid-row: 2;
+  width: 50%;
+ padding-left: 40px;
+}
+.temp{
+  grid-column: 2;
+  grid-row: 2;
+  padding-left: 10px;
+  padding: 0px;
+  text-align: left;
+  font-size: 35px;
+}
+.cloudy{
+  grid-column: 1/3;
+  grid-row: 3;
+  text-align: center;
+  margin: 0%;
+  padding-top:  30px;
+  padding-left: 150px;
+  padding-bottom: 30px;
+  border-bottom: solid black;
+  font-weight: 600;
+  font-size: 25px;
+}
+.wind {
+  grid-column: 1;
+  grid-row: 4;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0%;
+  font-size: 20px;
+}
+.mph {
+  grid-column: 2;
+  grid-row: 4;
+  font-size: 20px;
+}
+.hum {
+  grid-column: 1;
+  grid-row: 5;
+  text-align: center;
+  margin: 0%;
+  font-size: 20px;
+}
+.perc {
+  grid-column: 2;
+  grid-row: 5;
+  margin: 0%;
+  font-size: 20px;
+}
 footer {
   display: grid;
   grid-template-columns: 1fr ;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .info{
@@ -161,17 +248,19 @@ footer {
 
 .event,
 .weather,
-.join,
-.hero, 
+.join, 
 .release,
 .spotlight1,
 .spotlight2,
 .spotlight3 {
   opacity: 0.7;
   font-style: italic;
+  color: #faff81;
 }
 
-
+footer{
+  padding-top: 900px;
+}
 .foot {
   border-top: 1px solid rgba(0, 0, 0, 0.8);
   justify-content: center;
@@ -188,5 +277,37 @@ time{
   padding: 0px 0px 0px 50px;
   color: #6c969d;
 }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
 
   
