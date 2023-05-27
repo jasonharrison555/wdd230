@@ -38,6 +38,8 @@ main {
   border-top: #ffc53f solid 5px;
 }
 
+
+
 div {
     
     padding: 10px;
@@ -109,7 +111,7 @@ ul {
     background-color:#6c969d;
     font-size: smaller;
     grid-row: 1;
-    background-image: url('../images/driggsid.jpg');
+    /* background-image: url('../images/driggsid.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
