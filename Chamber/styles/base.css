@@ -221,7 +221,7 @@ background-color: #ffc53f;
   grid-row: 4;
   font-size: 20px;
 }
-.hum {
+.windchill {
   grid-column: 1;
   grid-row: 5;
   text-align: center;
