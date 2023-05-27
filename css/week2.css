@@ -6,9 +6,13 @@ html {
     
   }
 
-  h2, h4, a, p {
+  h4, a, p {
     padding-left: 10px;
     color: rgb(48, 116, 115);
+  }
+  h2 {
+    color: black;
+    padding-left: 10px;
   }
   .header1{
     background-color: rgb(247, 153, 110);
