@@ -59,7 +59,7 @@ header {
   grid-row: 1;
   grid-column:2/3 ;
   color: rgb(48, 116, 115);
-  margin: 0, auto;
+  margin: auto 0;
   height: 50px;
   padding: 80px;
   padding-left: 150px;
@@ -72,7 +72,7 @@ header {
 footer {
   color: rgb(48, 116, 115);
   text-align: center;
-  margin: 0, auto;
+  margin: auto 0;
   background-color: rgb(247, 240, 109);
   padding-top: 35px;
   height: 55px;
