@@ -30,7 +30,7 @@ header {
 }
 
 main {
-  padding-bottom: 100px;
+  padding-bottom: 520px;
   padding-top: 10px;
   background-image: url('../images/moosesmall.jpg');
   background-size: cover;
@@ -58,19 +58,34 @@ div {
 }
 nav {
   font-size: smaller;
-    border-radius: 0px ;
+  border-radius: 0px ;
 	margin: 0 auto;
     padding: 0px
 }
-
+nav button:hover {
+    background-color: #ffc53f;
+    transition-duration: 0.5s;
+}
+nav button {
+  color: #fff;
+  background: transparent;
+  border: none;
+  border-radius: 15px;
+  font-size: 2rem;
+  padding: 10px;
+}
 nav ul li a {
 	color: #fff;
-	
 	padding: 0.75rem;
 	text-decoration: none;
-	
-	
+  display: flex;
 }
+nav ul {
+  display: none;
+}
+
+nav ul.open {display: block;}
+
 .linkedin{
   width: 45px;
   height: 45px;
@@ -122,6 +137,15 @@ p{
 }
 .herobutton {
   padding: 20px;
+  background: #faff81;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 900;
+  padding: 30px 70px;
+  transition-duration: 0.4s;
+  box-shadow: 0px 0px 15px 15px rgb(39, 38, 38)
 }
 .herobutton:hover {
   background-color: #ffc53f;
@@ -150,7 +174,7 @@ p{
 .pjoin{
   font-size: large;
 }
-button {
+.joinbutton {
   background: #faff81;
   border: none;
   color: black;
@@ -164,6 +188,7 @@ button {
 }
 .joinbutton:hover {
 background-color: #ffc53f;
+
 }
 
   .spotlight1{
@@ -293,10 +318,13 @@ time{
 }
 
 .topnav{
-  padding-top: 200px;
+  padding-top: 0px;
   font-size: 25px;
   font-weight: 700;
- 
+  grid-column: 1;
+  grid-row: 1;
 }
-
-  
+.logos {
+  padding-left: 15px;
+}
+.mylogo {grid-column: 2;}
