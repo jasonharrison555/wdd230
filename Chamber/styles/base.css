@@ -25,6 +25,7 @@ header {
   background-image: url('../images/tetonback1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #6c969d;
 }
 .mainDiscover {
   background-image: none;
@@ -337,7 +338,7 @@ time{
   width: 100%;
 }
 .mainback {
-  background-color: #6c969d;
+
   grid-column: 1/4;
   grid-row: 1/4;
   justify-content: center;
@@ -385,6 +386,7 @@ text-align: center;
 .mainDiscover{
   border-top:  5px solid #ffc53f;
   padding-top: 0px;
+  background-color:#3B5759;
 }
 .mainback img:hover {
   width: 104%;
