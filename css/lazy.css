@@ -5,6 +5,7 @@ img{
 body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(119, 166, 220);
 }
 .moose{
     grid-column: 2;
