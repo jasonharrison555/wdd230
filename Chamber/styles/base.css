@@ -24,7 +24,6 @@ html {
 header {
   background-image: url('../images/tetonback1.jpg');
   background-size: cover;
-  
   background-repeat: no-repeat;
 }
 .mainDiscover {
@@ -319,6 +318,7 @@ footer{
 time{
   padding: 0px 0px 0px 50px;
   color: white;
+  
 }
 
 .topnav{
@@ -327,6 +327,7 @@ time{
   font-weight: 700;
   grid-column: 2;
   grid-row: 2;
+ 
 }
 .logos {
   padding-left: 15px;
@@ -343,31 +344,35 @@ time{
   display: grid;
 }
 
-
-.divSpud {
+.titleDiscover{
   grid-column: 2;
   grid-row: 1;
 
 }
-.divGeo{
+.divSpud {
   grid-column: 2;
   grid-row: 2;
+
 }
-.divLeigh {
+.divGeo{
   grid-column: 2;
   grid-row: 3;
 }
-.divMuseum{
+.divLeigh {
   grid-column: 2;
   grid-row: 4;
 }
-.divTrail {
+.divMuseum{
   grid-column: 2;
   grid-row: 5;
 }
-.divFalls {
+.divTrail {
   grid-column: 2;
   grid-row: 6;
+}
+.divFalls {
+  grid-column: 2;
+  grid-row: 7;
 
 }
 
@@ -377,3 +382,25 @@ grid-row: 1;
 font-size: 2.1em;
 text-align: center;
   }
+.mainDiscover{
+  border-top:  5px solid #ffc53f;
+  padding-top: 0px;
+}
+.mainback img:hover {
+  width: 104%;
+  border-radius: 15px;
+  transition: 1s;
+}
+.titleDiscover{
+  font-size: 5em;
+  padding-left: 200px;
+  color: #faff81;
+  margin-bottom: 0px;
+}
+.mainback p {
+  color: #faff81;
+}
+
+.mainback h2 {
+  color: #faff81;
+}
