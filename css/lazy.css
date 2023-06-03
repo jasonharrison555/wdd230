@@ -1,6 +1,28 @@
 img{
     height: 400px;
     width: 300px;
-    animation: img-come-in 1s;
-    opacity: 1;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.moose{
+    grid-column: 2;
+    grid-row: 1;
+}
+.cars{
+    grid-column: 2;
+    grid-row: 2;
+}
+.mater{
+    grid-column: 2;
+    grid-row: 3;
+}
+.mack{
+    grid-column: 2;
+    grid-row: 4;
+}
+.mcqueen{
+    grid-column: 2;
+    grid-row: 5;
 }
