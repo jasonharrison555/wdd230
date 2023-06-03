@@ -17,7 +17,7 @@
     }
 header {
   display: grid;
-  color: rgb(48, 116, 115);
+  color:white;
   grid-template-rows: 1fr ;
   grid-template-columns: 1fr 1fr;
   
@@ -30,7 +30,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr ;
-    padding-top: 100px;
+    padding-top: 0px;
   }
   .info{
     text-align: center;
@@ -105,15 +105,25 @@ footer {
 footer{
     padding-top: 10px;
 }
-time{
+.time{
     padding: 0px 0px 0px 10px;
-    color: #6c969d;
-    grid-column: 1/3;
+    color: white;
+    grid-column: 2/3;
   }
 .topnav{
- padding: 160px 0px 0px 100px;
+padding: 10px 0px 0px 10px;
+grid-column: 1;
+grid-row: 2;
+
 }
+.title1{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 100px 0px 0px 10px;
+      }
 .logos {
-    padding-left: 105px;
+    padding-left: 20px;
+    grid-column: 1;
+    grid-row: 3;
   }
 }

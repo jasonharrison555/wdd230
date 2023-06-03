@@ -3,7 +3,7 @@ html {
     font-size: 100%;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    height: 1700px;
+    height: auto;
   }
   img{
     width: 100%;
@@ -15,10 +15,9 @@ html {
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
     margin: auto;
-    padding: 15px;
     column-gap: 15px;
     row-gap: 10px;
-    height: 750px;
+    height: auto;
     
   }
 
@@ -28,9 +27,14 @@ header {
   
   background-repeat: no-repeat;
 }
+.mainDiscover {
+  background-image: none;
+  height: auto;
 
-main {
-  padding-bottom: 520px;
+}
+
+.mainIndex {
+  padding-bottom: 10px;
   padding-top: 10px;
   background-image: url('../images/moosesmall.jpg');
   background-size: cover;
@@ -298,7 +302,7 @@ footer {
 }
 
 footer{
-  padding-top: 900px;
+  padding-top: 10px;
 }
 .foot {
   border-top: 1px solid rgba(0, 0, 0, 0.8);
@@ -314,17 +318,62 @@ footer{
 
 time{
   padding: 0px 0px 0px 50px;
-  color: #6c969d;
+  color: white;
 }
 
 .topnav{
-  padding-top: 0px;
+
   font-size: 25px;
   font-weight: 700;
-  grid-column: 1;
-  grid-row: 1;
+  grid-column: 2;
+  grid-row: 2;
 }
 .logos {
   padding-left: 15px;
 }
 .mylogo {grid-column: 2;}
+.logo{
+  width: 100%;
+}
+.mainback {
+  background-color: #6c969d;
+  grid-column: 1/4;
+  grid-row: 1/4;
+  justify-content: center;
+  display: grid;
+}
+
+
+.divSpud {
+  grid-column: 2;
+  grid-row: 1;
+
+}
+.divGeo{
+  grid-column: 2;
+  grid-row: 2;
+}
+.divLeigh {
+  grid-column: 2;
+  grid-row: 3;
+}
+.divMuseum{
+  grid-column: 2;
+  grid-row: 4;
+}
+.divTrail {
+  grid-column: 2;
+  grid-row: 5;
+}
+.divFalls {
+  grid-column: 2;
+  grid-row: 6;
+
+}
+
+.title1{
+grid-column: 2;
+grid-row: 1;
+font-size: 2.1em;
+text-align: center;
+  }
