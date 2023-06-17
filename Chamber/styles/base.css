@@ -26,6 +26,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #6c969d;
+  height: auto;
 }
 .mainDiscover {
   background-image: none;
