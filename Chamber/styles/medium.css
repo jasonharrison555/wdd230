@@ -109,6 +109,8 @@ footer{
     padding: 0px 0px 0px 10px;
     color: white;
     grid-column: 2/3;
+    grid-column: 1;
+    grid-row: 3;
   }
 .topnav{
 padding: 10px 0px 0px 10px;
@@ -124,6 +126,6 @@ grid-row: 2;
 .logos {
     padding-left: 20px;
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 4;
   }
 }
