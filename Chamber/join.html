@@ -33,11 +33,55 @@
                 <a href="https://www.linkedin.com/" ><img src="images/linkedin.png" alt="linkedin-icon" class="linkedin"></a>
             </div>
               <section class="time">
-                <h2 ><time></h2> 
+                <time>&nbsp;</time>
             </section>
     </header>
     <main class="mainJoin">
-        
+        <h1>Membership Application</h1>
+        <!-- fieldset 1 -->
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Buisness Position Title <input type="text" name="buisPosition" ></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="username@gmail.com" required></label>
+                </fieldset>
+    
+                <!-- fieldset 2 -->
+                <fieldset>
+                    <legend>Buisness Information</legend>
+                    <label class="top">Buisness Name:<input type="text" name="buisName" ></label>
+                    <label class="sbs"><input type="radio" name="membership" value="np"> Np Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                    <label class="sbs" for="buisdescription">Buisness Description<textarea id="buisdescription" rows="4" cols="50" spellcheck="
+                        false"></textarea>
+                <div>
+                    <legend>NP Membership</legend>
+                    <h2>Free</h2>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <legend>Bronze Membership</legend>
+                    <h2>$4.99</h2>
+                    <legend>Silver Membership</legend>
+                    <h2>$9.99</h2>
+                    <legend>Gold Membership</legend>
+                    <h2>$19.99</h2>
+                </div>
+                    
+                </fieldset>
+    
+
+                 
+                </fieldset>
+            
+                <input type="submit" value="Get My Membership" class="submitBtn">
+            
+            </form>
        
     </main>
     <footer>

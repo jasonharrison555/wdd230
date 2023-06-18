@@ -10,15 +10,17 @@ html {
   }
 
 
-  main {
+  main .mainIndex  {
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
     margin: auto;
-    column-gap: 15px;
-    row-gap: 10px;
     height: auto;
     
+  }
+  .mainIndex {
+    column-gap: 15px;
+    row-gap: 15px;
   }
 
 header {
@@ -353,7 +355,7 @@ time{
   justify-content: center;
   display: grid;
 }
-
+/*-----------Discover Page------------*/
 .titleDiscover{
   grid-column: 2;
   grid-row: 1;
@@ -414,4 +416,87 @@ text-align: center;
 
 .mainback h2 {
   color: #faff81;
+}
+
+
+/*------------Form-------------*/
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #ffc53f;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+form legend{
+  color:rgb(255, 255, 255);
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #ffffff;
+  font-size: .8rem;
+}
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #ffc53f;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #ffffff;
+  width: 87%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #ffffff;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #ffc53f;
+  color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 28%;
+  width: 96%;
+  max-width: 20rem;
+  justify-content: center;
+}
+
+form label.top input.required {
+  border-left: red solid 6px;
+}
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+textarea{
+  display: block;
+}
+fieldset{
+  
+}
+legend {
+  color: #eae8e8;
+}
+/*--------Join Page----------*/
+
+ .mainJoin {
+    display: grid;
+    border-top:  5px solid #ffc53f;
+    padding-top: 0px;
+    background-color:#3B5759;
+   grid-template-columns: 60%;
+   justify-content: center;
+}
+
+/*--------Thank You Page----------*/
+
+.parThank, .titleThank {
+  color: #eae8e8;
 }

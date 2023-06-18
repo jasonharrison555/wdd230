@@ -50,13 +50,12 @@ nav a:hover {
         
 color: #36454f; 
 }
-main {
+.mainIndex {
     display: grid;
     grid-template-columns: 400px 600px 400px ;
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 100px;
-    background-image: url('../images/moose.jpg');
     background-size: cover;
 
     background-repeat: no-repeat;
@@ -218,5 +217,18 @@ grid-row: 1;
 .time{
   grid-column: 2;
   grid-row: 3;
+}
+
+/*-------Join Page--------*/
+
+.mainJoin {
+  border-top:  5px solid #ffc53f;
+  padding-top: 0px;
+  background-color:#3B5759;
+  
+}
+
+form label.top input, form label.top select {
+  width: 100%;
 }
 }
