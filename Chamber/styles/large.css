@@ -8,7 +8,7 @@
 
    header {
     border: none;
-    height: 350px;
+    height: auto;
    }
 nav button {
   display: none;
