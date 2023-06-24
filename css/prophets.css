@@ -1,0 +1,28 @@
+ /*---------cards style----------*/
+.name{
+    text-align: center;
+}
+
+.cards {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+background-color: rgb(7, 7, 71);
+color: White;
+row-gap: 20px;
+column-gap: 20px;
+}
+
+section{
+background-color: rgb(80, 100, 156);
+padding: 30px;
+border: solid 5px black;
+}
+img{
+padding: 0px 0px 0px 60px;
+width: 65%;
+height: 70%;
+}
+
+p, h2 {
+text-align: center;
+}
