@@ -1,0 +1,77 @@
+{
+    "companies": [
+      {
+        "name": "Dory's Cafe",
+        "address": "53 Depot St, Driggs, ID 83422",
+        "phonenumber": "208-359-2336",
+        "website": "https://www.doryscafe.com/",
+        "icon": "images/dory.png",
+        "membership": "silver"
+      },
+      {
+        "name": "Pizzeria Alpino",
+        "address": "Smith",
+        "phonenumber": "23 December 1805",
+        "website": "https://www.pizzeriaalpino.com/menu",
+        "icon": "images/alpino.png",
+        "membership": "silver"
+      },
+      {
+        "name": "O'Reilly Auto Parts",
+        "address": "180 N Main St, Driggs, ID 83422",
+        "phonenumber": "208-354-0992",
+        "website": "https://locations.oreillyauto.com/id/driggs/autoparts-5592.html",
+        "icon": "images/oreilly.png",
+        "membership": "Gold"
+      },
+      {
+        "name": "Yostmark Mountain Equipment",
+        "address": "110 E Little Ave, Driggs, ID 83422",
+        "phonenumber": "208-354-2828",
+        "website": "http://yostmark.com/",
+        "icon": "images/yostmark.png",
+        "membership": "gold"
+      },
+      {
+        "name": "Teton Thai Restaurant and Bar",
+        "address": "18 N Main St Suite 100, Driggs, ID 83422",
+        "phonenumber": "208-787-8424",
+        "website": "http://www.tetonthai.com/",
+        "icon": "images/thai.png",
+        "membership": "bronze"
+      },
+      {
+        "name": "Teton Valley Realty",
+        "address": "253 S Main St #101, Driggs, ID 83422",
+        "phonenumber": "208-354-2439",
+        "website": "http://www.tetonvalleyrealty.com/",
+        "icon": "images/realty.png",
+        "membership": "bronze"
+      },
+      {
+        "name": "Aspen Insurance LLC",
+        "address": "834 ID-33, Driggs, ID 83422",
+        "phonenumber": "208-682-4700",
+        "website":"http://aspeninsurance.net/",
+        "icon": "images/aspen.jpg",
+        "membership": "gold"
+      },
+      {
+        "name": "Teton Valley Cabins",
+        "address": "1 Mountain Vista Dr, Driggs, ID 83422",
+        "phonenumber": "208-354-8153",
+        "website": "http://www.tetonvalleycabins.com/",
+        "icon": "images/tetonval.png",
+        "membership": "bronze"
+      },
+      {
+        "name": "Broulim's",
+        "address": "240 S Main St, Driggs, ID 83422",
+        "phonenumber": "208-643-3243",
+        "website": "http://broulims.com/",
+        "icon": "images/broulims.png",
+        "membership": "gold"
+        
+      }
+    ]
+}

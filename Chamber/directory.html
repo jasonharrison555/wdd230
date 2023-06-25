@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment portal for Jason Harrison in WDD 230: Web Frontend Development at BYUI" >
+    <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+</head>
+<body >
+    <header >
+        <div class="mylogo">
+        <img class="logo" src="images/logo-teton-typ1.gif" alt="tetonlogo">
+        </div>
+        <h1 class="title1">Teton Mountain Chamber of Commerce </h1>
+            <div class="topnav">
+                    <nav>
+                <button id="hamburgerBtn">&#9776; Menu</button>
+                        <ul id="primaryNav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="discover.html">Discover</a></li>
+                            <li><a href="join.html">Join</a></li>
+                            <li><a href="directory.html">Directory</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>    
+                    </nav>
+            </div>
+            <div class="logos">
+                <a href="https://web.facebook.com/" ><img src="images/facebooklogo.png" alt="facebook-icon" class="facebook"></a>
+                <a href="https://www.linkedin.com/" ><img src="images/linkedin.png" alt="linkedin-icon" class="linkedin"></a>
+            </div>
+              <section class="time">
+                <time>&nbsp;</time>
+            </section>
+    </header>
+    <main class="mainDirectory">
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+        <div id="companyCards" class="cards"></div>
+    </main>
+    <footer>
+        <img class="logofoot" src="images/logo-teton-typ1.gif" alt="tetonlogo">
+        <p class="address"> Teton Mountain Chamber of Commerce <br> North Main Street <br> Driggs, ID 83422</p>
+        <p class="info">info@tetoncc.org <br> 208-504-3445 <br> <a href="https://goo.gl/maps/msRU2qkYxTp7WyvAA" class="map">Location Map</a> </p>
+        
+        <div class="foot">
+        &copy; 2023 .:|:. Jason C. Harrison .:|:. Idaho .:|:.<a href="wdd230/index.html" class="home"> Home </a> 
+        <p>Last Updated: &nbsp;<span id="lastmod"></span></p>
+        </div>
+    </footer>
+<script src="scripts/date.js"></script>
+<script src="scripts/scripts.js"></script>
+<script src="scripts/navbar.js"></script>
+<script src="scripts/lazy.js"></script>
+<script src="scripts/data.js"></script>
+</body>
+</html>

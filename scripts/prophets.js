@@ -39,3 +39,5 @@ async function getProphetData() {
   } 
   
   getProphetData();
+
+  
