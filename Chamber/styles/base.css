@@ -137,13 +137,13 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
-    grid-template-rows: 1fr 1fr 70px;
+    grid-template-rows: 1fr 1fr auto;
 }
 p{
   font-size: larger;
 }
 .herobutton {
-  padding: 20px;
+  padding: 200px;
   background: #faff81;
   border: none;
   color: black;
@@ -152,7 +152,8 @@ p{
   font-weight: 900;
   padding: 30px 70px;
   transition-duration: 0.4s;
-  box-shadow: 0px 0px 15px 15px rgb(39, 38, 38)
+  box-shadow: 0px 0px 15px 15px rgb(39, 38, 38);
+  width: 100%;
 }
 .herobutton:hover {
   background-color: #ffc53f;
@@ -162,9 +163,6 @@ p{
     grid-row: 2;
 }
 .weather{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 50px 50px 50px 50px ;
   background-color:#6c969d;
     grid-row: 3;
 }
@@ -214,23 +212,38 @@ background-color: #ffc53f;
     grid-row: 8;
     border: 1px solid rgba(0, 0, 0, 0.8);
 }
+
+.secWeather{
+  display: grid;
+  border-bottom:1px solid #040403;
+}
 .icon {
-  grid-column: 1;
-  grid-row: 2;
+
   width: 50%;
- padding-left: 40px;
+ padding-left: 0px;
+}
+.titleWeather{
+  grid-column: 1/3;
+  grid-row: 1;
 }
 .temp{
-  grid-column: 2;
-  grid-row: 2;
+  margin: 0px;
   padding-left: 10px;
   padding: 0px;
-  text-align: left;
+  text-align: center;
   font-size: 35px;
+  padding-top: 50px;
+}
+figcaption{
+  grid-column: 1/3;
+  text-align: center;
+  font-size: 30px;
+}
+.weather figure img {
+width: 100%
 }
 .cloudy{
-  grid-column: 1/3;
-  grid-row: 3;
+
   text-align: center;
   margin: 0%;
   padding-top:  30px;
@@ -241,28 +254,23 @@ background-color: #ffc53f;
   font-size: 25px;
 }
 .wind {
-  grid-column: 1;
-  grid-row: 4;
   text-align: center;
   padding-top: 20px;
   margin: 0%;
   font-size: 20px;
 }
 .mph {
-  grid-column: 2;
-  grid-row: 4;
+ 
   font-size: 20px;
 }
 .windchill {
-  grid-column: 1;
-  grid-row: 5;
+
   text-align: center;
   margin: 0%;
   font-size: 20px;
 }
 .perc {
-  grid-column: 2;
-  grid-row: 5;
+
   margin: 0%;
   font-size: 20px;
 }

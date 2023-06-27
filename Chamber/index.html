@@ -44,10 +44,14 @@
         <p></p>
         </div>
         <div class="weather">
-            <h2>Weather</h2>
-            <img class="icon" src="images/partlycloudyicon.png" alt="partly cloudy icon">
-            <p class="temp">76°F</p>
-            <p class="cloudy">Partly Cloudy</p>
+            <section class="secWeather">
+            <h2 class="titleWeather">Weather</h2>
+            <p class="temp"> <span  id="current-temp"></span> &deg;F</p>
+            <figure>
+              <img class="icon" src="" alt="" id="weather-icon" />
+            </figure>
+            <figcaption></figcaption>
+            </section>
             <p class="wind">Wind Speed: 7mph</p>
             <p class="windchill">Wind Chill: <span id="wChill"></span> °F </p>
             
@@ -68,8 +72,9 @@
                         images/wdd230_1100.jpg 1100w">
             
             </figure>
-            <p></p>
+            <a href= "join.html">
             <button class="herobutton"> Join the Chamber!</button>
+            </a>
         </div>
         <div class="release">
             <h2>New Release</h2>
@@ -105,5 +110,6 @@
 <script src="scripts/scripts.js"></script>
 <script src="scripts/navbar.js"></script>
 <script src="scripts/windchill.js"></script>
+<script src="scripts/weatherapi.js"></script>
 </body>
 </html>
