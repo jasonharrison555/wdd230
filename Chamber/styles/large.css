@@ -16,6 +16,7 @@ nav button {
 
 nav ul#primaryNav {
   display: flex;
+  text-align: center;
 }
 
 nav a {
@@ -24,28 +25,29 @@ border-radius: 15px;
 text-decoration: none;
 padding: 100px;
 }
-
-.topnav{
-  padding: 30px 0px 0px 200px;
-  font-size: 25px;
-  font-weight: 700;
-
+.topNav {
+  display: grid;
 }
-.mylogo {grid-column: 1;}
+.bottomNav{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.navbar{
+  
+}
+.mylogo {
+  grid-column: 1;}
+
 .links {
   font-size: 1.4em;
   padding: 100px 0px 100px 0px;
 }
 time{
   font-size: larger;
-  padding-left: 300px;
   color: white;
-  
 }
 
-.time {
-  grid-column: 2;
-}
 nav a:hover {
         
 color: #36454f; 
@@ -62,10 +64,9 @@ color: #36454f;
 } 
 
 header {
-  display: grid;
+  
   color: white;
-  grid-template-rows: 1fr ;
-  grid-template-columns: auto 1fr 300px;
+
 
   border-radius: 15px 15px 0px 0px;
   padding-bottom: 10px;
@@ -206,18 +207,12 @@ grid-row: 1;
   grid-column: 1;
   grid-row: 1;
 }
-.topnav{
-  grid-column: 2;
-  grid-row: 2;
-}
+
 .logos{
   grid-column: 3;
   grid-row: 1;
 }
-.time{
-  grid-column: 2;
-  grid-row: 3;
-}
+
 
 /*-------Join Page--------*/
 
@@ -230,5 +225,88 @@ grid-row: 1;
 
 form label.top input, form label.top select {
   width: 100%;
+}
+#buisdescription {
+  padding: 0px 85px;
+}
+/*-----------Discover Page------------*/
+.titleDiscover{
+  grid-column: 2;
+  grid-row: 1;
+
+}
+.divSpud {
+  grid-column: 2;
+  grid-row: 2;
+
+}
+.divGeo{
+  grid-column: 2;
+  grid-row: 3;
+}
+.divLeigh {
+  grid-column: 2;
+  grid-row: 4;
+}
+.divMuseum{
+  grid-column: 2;
+  grid-row: 5;
+}
+.divTrail {
+  grid-column: 2;
+  grid-row: 6;
+}
+.divFalls {
+  grid-column: 2;
+  grid-row: 7;
+
+}
+
+.title1{
+grid-column: 2;
+grid-row: 1;
+font-size: 2.1em;
+
+  }
+.mainDiscover{
+  border-top:  5px solid #ffc53f;
+  padding-top: 0px;
+  background-color:#3B5759;
+  display: grid;
+}
+.mainback img:hover {
+  width: 104%;
+  border-radius: 15px;
+  transition: 1s;
+}
+.titleDiscover{
+  font-size: 5em;
+  color: #faff81;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.mainback p {
+  color: #faff81;
+  text-align: left;
+}
+
+.mainback h2 {
+  color: #faff81;
+}
+.mainContact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top:  5px solid #ffc53f;
+  padding-top: 0px;
+  background-color:#3B5759;
+  
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	margin: 0;
+	padding: 0.25rem;
+  
 }
 }

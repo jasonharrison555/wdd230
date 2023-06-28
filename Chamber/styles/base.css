@@ -10,10 +10,10 @@ html {
   }
 
 
-  main .mainIndex  {
+  .mainIndex  {
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: 1fr 1fr 1fr;
+  
     margin: auto;
     height: auto;
     
@@ -338,12 +338,11 @@ time{
   opacity: 80%;
 }
 
-.topnav{
+.bottomNav{
 
   font-size: 25px;
   font-weight: 700;
-  grid-column: 2;
-  grid-row: 2;
+
   background-color: #6c969d;
   opacity: 80%;
 }
@@ -360,68 +359,6 @@ time{
   grid-row: 1/4;
   justify-content: center;
   display: grid;
-}
-/*-----------Discover Page------------*/
-.titleDiscover{
-  grid-column: 2;
-  grid-row: 1;
-
-}
-.divSpud {
-  grid-column: 2;
-  grid-row: 2;
-
-}
-.divGeo{
-  grid-column: 2;
-  grid-row: 3;
-}
-.divLeigh {
-  grid-column: 2;
-  grid-row: 4;
-}
-.divMuseum{
-  grid-column: 2;
-  grid-row: 5;
-}
-.divTrail {
-  grid-column: 2;
-  grid-row: 6;
-}
-.divFalls {
-  grid-column: 2;
-  grid-row: 7;
-
-}
-
-.title1{
-grid-column: 2;
-grid-row: 1;
-font-size: 2.1em;
-text-align: center;
-  }
-.mainDiscover{
-  border-top:  5px solid #ffc53f;
-  padding-top: 0px;
-  background-color:#3B5759;
-}
-.mainback img:hover {
-  width: 104%;
-  border-radius: 15px;
-  transition: 1s;
-}
-.titleDiscover{
-  font-size: 5em;
-  padding-left: 200px;
-  color: #faff81;
-  margin-bottom: 0px;
-}
-.mainback p {
-  color: #faff81;
-}
-
-.mainback h2 {
-  color: #faff81;
 }
 
 
@@ -468,11 +405,11 @@ form input.submitBtn {
   background-color: #ffc53f;
   color: rgb(0, 0, 0);
   border-radius: 1rem;
-  padding: .75rem 1.5rem;
-  margin: 0 0 2rem 28%;
+  padding: 10px;
   width: 96%;
   max-width: 20rem;
-  justify-content: center;
+  margin-left: 5px;
+  margin-bottom: 20px;
 }
 
 form label.top input.required {
@@ -490,6 +427,7 @@ fieldset{
 legend {
   color: #eae8e8;
 }
+
 /*--------Join Page----------*/
 
  .mainJoin {
@@ -500,7 +438,13 @@ legend {
    grid-template-columns: 60%;
    justify-content: center;
 }
-
+.submitBtn:hover{
+background-color: #faff81;
+transition: 0.5s;
+}
+#buisdescription {
+  padding: 0px 25px;
+}
 /*--------Thank You Page----------*/
 
 .parThank, .titleThank {
@@ -527,7 +471,7 @@ legend {
 
 .cards{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   column-gap: 10px;
 }
 
@@ -535,7 +479,7 @@ legend {
 .grid img{
   width: 50%;
   height: 50%;
-  padding: 15px 0px 0px 130px;
+  padding: 15px 0px 0px 80px;
 }
 
 .grid {
@@ -544,14 +488,24 @@ legend {
   
 }
 
-p, h2 {
+.mainDirectory p{
 	text-align: center;
 
 }
+.mainDirectory h1{
+	text-align: center;
+}
+
+.mainDirectory h2{
+	text-align: center;
+}
+
+
 .grid section {
   padding-bottom: 10px;
   background-color: #3B5759;
   box-shadow: 10px 10px 10px 0px #6c969d;
+  padding: 0px 0px;
 }
 
 
@@ -569,9 +523,14 @@ p, h2 {
 
 .list section {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr ;
 	margin: 0;
 	padding: 0.25rem;
+  
+}
+
+.list h2{
+  color: #040403;
 }
 
 .list section > * {
@@ -584,4 +543,60 @@ p, h2 {
 
 .list section:nth-child(even) {
 	background-color: #6c969d;
+}
+
+/*------contact------*/
+
+.mainContact {
+  display: grid;
+  grid-template-columns: 1fr ;
+  border-top:  5px solid #ffc53f;
+  padding-top: 0px;
+  background-color:#3B5759;
+  
+}
+.mainBottom p, h1, h2{
+  text-align: left;
+  color: #eae8e8;
+}
+.mainTop{
+  width: 85%;
+  
+}
+.sbs {
+  width:auto;
+}
+.submitBtn{
+
+}
+#concerns{
+  padding: 0px 0px
+}
+
+/*-------Discover Page-------*/
+.mainDiscover{
+  border-top:  5px solid #ffc53f;
+  padding-top: 0px;
+  background-color:#3B5759;
+  display: grid;
+}
+.mainback img:hover {
+  width: 104%;
+  border-radius: 15px;
+  transition: 1s;
+}
+.titleDiscover{
+  font-size: 5em;
+  color: #faff81;
+  margin-bottom: 0px;
+  text-align: center;
+  border-bottom: solid 5px #ffc53f;
+}
+.mainback p {
+  color: #faff81;
+  text-align: left;
+}
+
+.mainback h2 {
+  color: #faff81;
 }

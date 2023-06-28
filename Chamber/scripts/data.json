@@ -20,7 +20,7 @@
         "name": "O'Reilly Auto Parts",
         "address": "180 N Main St, Driggs, ID 83422",
         "phonenumber": "208-354-0992",
-        "website": "https://locations.oreillyauto.com/id/driggs/autoparts-5592.html",
+        "website": "https://locations.oreillyauto.com/id/\ndriggs/autoparts-5592.html",
         "icon": "images/oreilly.png",
         "membership": "Gold"
       },
