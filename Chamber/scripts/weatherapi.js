@@ -2,7 +2,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url= 'http://api.openweathermap.org/data/2.5/weather?q=Driggs&units=imperial&appid=89a5dfd4094babce2245c6d363403b06'
+const url= 'https://api.openweathermap.org/data/2.5/weather?q=Driggs&units=imperial&appid=89a5dfd4094babce2245c6d363403b06'
 
 async function apiFetch() {
     try {

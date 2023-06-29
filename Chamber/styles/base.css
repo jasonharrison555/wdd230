@@ -44,7 +44,9 @@ header {
   background-repeat: no-repeat;
   border-top: #ffc53f solid 5px;
 }
-
+.title1{
+  color: black;
+}
 
 
 div {
@@ -130,7 +132,7 @@ ul {
   }
 
   .hero {
-    background-color:#6c969d;
+    background-color: #52787A;
     font-size: smaller;
     grid-row: 1;
     /* background-image: url('../images/driggsid.jpg'); */
@@ -311,7 +313,9 @@ footer {
   font-style: italic;
   color: #faff81;
 }
-
+a .home{
+  color:#040403
+}
 footer{
   padding-top: 10px;
 }
@@ -319,8 +323,8 @@ footer{
   border-top: 1px solid rgba(0, 0, 0, 0.8);
   justify-content: center;
   text-align: center;
-  background-color:#6c969d;
-  color: white;
+  background-color:#75A0A3;
+  color: black;
   border-top: black solid 5px;
 
   grid-row: 4;
