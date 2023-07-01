@@ -44,10 +44,20 @@ header {
   background-repeat: no-repeat;
   border-top: #ffc53f solid 5px;
 }
-.title1{
-  color: black;
+#bannerGreeting {
+  background-color: #3B5759;
+  
 }
-
+#bannerGreeting h1{
+  text-align: center;
+  color: #faff81;
+}
+.title1{
+  color: white;
+}
+#primaryNav{
+ justify-content: center;
+}
 
 div {
     
@@ -583,6 +593,11 @@ transition: 0.5s;
   padding-top: 0px;
   background-color:#3B5759;
   display: grid;
+ 
+}
+
+.mainDiscover div{
+  padding: 0px;
 }
 .mainback img:hover {
   width: 104%;
