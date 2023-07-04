@@ -3,6 +3,7 @@ const url = 'scripts/data.json';
 async function getData() {
     const response = await fetch(url);
     const data = await response.json();
+    // console.table(data.prophets); 
     displayCompany(data.companies)
   }
   
@@ -15,26 +16,24 @@ async function getData() {
       let h2 = document.createElement('h2');
       let companyAddress = document.createElement('p');
       let companyNumber = document.createElement('P');
-      let companyWeb = document.createElement('p');
       let portrait = document.createElement('img');
-     
+      let member = document.createElement('p');  
 
       h2.textContent = `${buisness.name}`;
       companyAddress.textContent = ` ${buisness.address}`;
       companyNumber.textContent = ` ${buisness.phonenumber}`;
       companyWeb.textContent = ` ${buisness.website}`;
-      
+      member.textContent = `${buisness.membership}`;
  
       portrait.setAttribute('src', buisness.icon);
       portrait.setAttribute('alt', `${buisness.name}`);
       portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '340');
-      portrait.setAttribute('height', '440');
+      portrait.setAttribute('width', '140');
+      portrait.setAttribute('height', '240');
   
   
-      
-      card.appendChild(portrait);
       card.appendChild(h2);
+      card.appendChild(portrait);
       card.appendChild(companyAddress);
       card.appendChild(companyNumber);
       card.appendChild(companyWeb);
@@ -43,19 +42,3 @@ async function getData() {
   } 
   
   getData();
-
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("#companyCards");
-
-gridbutton.addEventListener("click", () => {
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList); 
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}

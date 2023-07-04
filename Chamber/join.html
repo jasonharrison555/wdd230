@@ -4,39 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Assignment portal for Jason Harrison in WDD 230: Web Frontend Development at BYUI" >
+    <meta name="description" content="Chamber of Commerce join page. Where you can sign up and become a member. " >
     <title>Chamber of Commerce</title>
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     
 </head>
 <body >
     <header >
+        <div id="bannerGreeting"></div>
         <div class="topNav">
-            <div class="mylogo">
-                <img class="logo" src="images/logo-teton-typ1.gif" alt="tetonlogo">
-            </div>
-            <h1 class="title1">Teton Mountain Chamber of Commerce </h1>
-
+            <a href="index.html">
+                <img class="logo" src="images/teton-logo.png" alt="Teton Logo" >
+            </a>
                 <div class="logos">
                     <a href="https://web.facebook.com/" ><img src="images/facebooklogo.png" alt="facebook-icon" class="facebook"></a>
                     <a href="https://www.linkedin.com/" ><img src="images/linkedin.png" alt="linkedin-icon" class="linkedin"></a>
                 </div>
         </div>
             <div class="bottomNav">
-            <section class="navbar">
-                <nav>
-                <button id="hamburgerBtn">&#9776; Menu</button>
-                    <ul id="primaryNav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="discover.html">Discover</a></li>
-                        <li><a href="join.html">Join</a></li>
-                        <li><a href="directory.html">Directory</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>    
-                </nav>
-            </section>
+                <section class="navbar" id="navBar">
+                
+                    <nav>
+                    <button id="hamburgerBtn">&#9776; Menu</button>
+                        <ul class="primaryNav">
+                            <li><a href="index.html" title="Home">Home</a></li>
+                            <li><a href="discover.html" title="Discover">Discover</a></li>
+                            <li><a href="join.html" title="Join">Join</a></li>
+                            <li><a href="directory.html" title="Directory">Directory</a></li>
+                            <li><a href="contact.html" title="Contact">Contact</a></li>
+                        </ul>    
+                    </nav>
+                </section>
             <section class="time">
                 <time>&nbsp;</time>
             </section>
@@ -91,7 +92,7 @@
        
     </main>
     <footer>
-        <img class="logofoot" src="images/logo-teton-typ1.gif" alt="tetonlogo">
+        <img class="logofoot" src="images/teton_logo_black.png" alt="teton logo with black text">
         <p class="address"> Teton Mountain Chamber of Commerce <br> North Main Street <br> Driggs, ID 83422</p>
         <p class="info">info@tetoncc.org <br> 208-504-3445 <br> <a href="https://goo.gl/maps/msRU2qkYxTp7WyvAA" class="map">Location Map</a> </p>
         
@@ -100,7 +101,7 @@
         <p>Last Updated: &nbsp;<span id="lastmod"></span></p>
         </div>
     </footer>
-<script src="scripts/date.js"></script>
+<script src="scripts/lastMod.js"></script>
 <script src="scripts/scripts.js"></script>
 <script src="scripts/navbar.js"></script>
 <script src="scripts/windchill.js"></script>
