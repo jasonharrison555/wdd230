@@ -108,7 +108,8 @@ font-size: 0.95rem;
 }
 
 .logo {
-    width: 100%;
+    width: 50%;
+padding-left: 160px;
 }
 .color {
     width: 100%;

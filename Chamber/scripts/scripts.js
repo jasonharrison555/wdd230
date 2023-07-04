@@ -8,5 +8,5 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 );
 // "full" or long, medium, short options ... try them
 
-datefield.textContent = fulldate;
+document.getElementById("date").innerHTML = fulldate;
 
