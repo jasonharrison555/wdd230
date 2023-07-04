@@ -25,7 +25,7 @@
                 </div>
         </div>
             <div class="bottomNav">
-            <section class="navbar" id="navBar">
+            <div class="navbar">
                 
                 <nav>
                 <button id="hamburgerBtn">&#9776; Menu</button>
@@ -37,10 +37,10 @@
                         <li><a href="contact.html" title="Contact">Contact</a></li>
                     </ul>    
                 </nav>
-            </section>
-            <section class="time">
+            </div>
+            <div class="time">
                 <time>&nbsp;</time>
-            </section>
+            </div>
         </div>
     </header>
     <main class="mainIndex">
@@ -50,23 +50,21 @@
         <p></p>
         </div>
         <div class="weather">
-            <section class="secWeather">
-            <h2 class="titleWeather">Weather</h2>
-            <p class="temp"> <span  id="current-temp"></span> &deg;F</p>
-            <figure>
-              <img class="icon" src="" alt="" id="weather-icon" />
-            </figure>
-            <figcaption></figcaption>
-            </section>
+            <div class="secWeather">
+                <h2 class="titleWeather">Weather</h2>
+                <p class="temp"> <span  id="current-temp"></span> &deg;F</p>
+                <figure>
+                <img class="icon" src="" alt="weather icon" id="weather-icon" >
+                </figure>
+            </div>
+        </div>
             <p class="wind">Wind Speed: <span id="speed"></span> mph </p>
             <p class="windchill">Wind Chill: <span id="wChill"></span> °F </p>
             
             
         </div>
         <div class="join">
-            <a href= "join.html">
-            <button class="joinbutton"> Join Us!</button>
-            </a>
+            <button class="joinbutton" onclick="window.location.href= 'join.html'"> Join Us!</button>
             <p class="pjoin">Discover how to join the Chamber of Commerce and how it will help your community and organization!</p>
         </div>
         <div class="hero">
@@ -75,9 +73,9 @@
           
             
             </figure>
-            <a href= "join.html">
-            <button class="herobutton"> Join the Chamber!</button>
-            </a>
+            
+            <button class="herobutton" onclick="window.location.href= 'join.html'"> Join the Chamber!</button>
+    
         </div>
         <div class="release">
             <h2>New Release</h2>
@@ -85,9 +83,9 @@
             
         </div>
         <div class="spotlight">
-            <div class="spotlight1" id="companyCards" class="cards"></div>
-            <div class="spotlight2" id="companyCards" class="cards"></div>
-            <div class="spotlight3" id="companyCards" class="cards"></div>
+            <div class="spotlight1" id="companyCards1" ></div>
+            <div class="spotlight2" id="companyCards2" ></div>
+            <div class="spotlight3" id="companyCards3" ></div>
         </div>   
     </main>
     <footer>
