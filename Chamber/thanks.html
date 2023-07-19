@@ -66,3 +66,50 @@
 <script src="scripts/lazy.js"></script>
 </body>
 </html>
+
+<legend>Business Information</legend>
+<label for="drink"> Choose a fruit:</label>
+<select name="pets" id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option id="drinkOptions" class="options"></option>
+</select>
+<select name="pets" id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option id="drinkOptions" class="options"></option>
+</select>
+                    <select name="pets" id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option id="drinkOptions" class="options"></option>
+</select>
+<label class="sbs" for="buisdescription">Buisness Description<textarea id="buisdescription" rows="4"  spellcheck="false"></textarea></label>
+<div id="drinkOptions" class="options"></div>
+
+
+const url = 'scripts/data.json';
+
+function populateDropdown() {
+  for (let i = 0; i < fruits.length; i++) {
+    let option = document.createElement('option');
+    option.value = fruits[i].value;
+    option.text = fruits[i].name;
+    populateDropdown.appendChild(option);
+
+  }
+}
+populateDropdown();
+
+const result = document.getElementById('result')
+
+dropdown.addEventListener('change', 
+function(){
+  result.innerHTML = 'You selected' + this.value;
+});
+
+
+<h1>Select a fruit:</h1>
+<select id="fruit">
+    <option value="">Select</option>
+</select>
+<p id="result"></p>
+</fieldset>
+<input type="submit" value="Get My Membership" class="submitBtn">

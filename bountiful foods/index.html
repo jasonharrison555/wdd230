@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce home page." >
+    <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    
+</head>
+<body >
+    <header >
+        
+        <div class="topNav">
+                <img class="logo" src="images/bountiful_logo.png" alt=" Logo" >
+            <div class="navbar">
+                
+                <nav>
+                <button id="hamburgerBtn">&#9776; </button>
+                    <ul class="primaryNav">
+                        <li><a href="index.html" title="Home">Home</a></li>
+                        <li><a href="fresh.html" title="Discover">Fresh</a></li>
+                        <li><a href="about.html" title="Join">About Us</a></li>
+                    </ul>    
+                </nav>
+            </div>
+                <div class="logos">
+                    <a href="https://web.facebook.com/" ><img src="images/facebooklogo.png" alt="facebook-icon" class="facebook"></a>
+                    <a href="https://www.linkedin.com/" ><img src="images/linkedin.png" alt="linkedin-icon" class="linkedin"></a>
+                    <a href="https://www.instagram.com/" ><img src="images/instagram_logo.png" alt="linkedin-icon" class="linkedin"></a>
+                </div>
+        </div>
+        <div class="banner_box">
+        <img class="banner_img" src="images/1fruit_banner.jpg" alt="fruit banner">
+        </div>
+    </header>
+    <main class="mainIndex">
+        <h1 class="summary_head">Summary</h1>
+        <div class="summary">
+                <img class="beach" src="images/treasure_island.jpg" alt="beach">
+                <h2 class="head_title">Treasure Island Beach</h2>
+                <p class="beach_text">Take a trip to the Treasure Island Beach. It's sandy, non-rocky bottom is perfect swimming. If you go to the more northern part of the beach where the clear water is, you'll find that this makes a great spot for snorkeling. More north and you will see some rocks. Going across their you can find a hidden cove! Come and visit and you won't be disappointed!</p>
+        </div>
+        <h1 class="weather_head">Weather</h1>
+        <div class="weather_div">
+            <div class="weather">
+            <p class="temp"> <span  id="current-temp"></span> &deg;F</p>
+            <figure>
+                <img class="icon" src="" alt="weather icon" id="weather-icon" >
+            </figure>
+            <p class="hum"> Humidity <span  id="current-hum"></span> %</p>
+            </div>
+            <div id="3day_forecast">
+
+            </div>
+
+        </div>
+        <h1 class="action_head">Call to action</h1>
+        <div>
+            <div class="drink">
+                <img class="fruit_drink" src="images/fruit_drink.jpg" alt="fruit drink">
+                <p class="pdrink">Come and make your own fruit drink! Click on the button to learn more!</p>
+                <button class="drinkbutton" onclick="window.location.href= 'fresh.html'"> Make a drink!</button>
+            </div>
+        </div>
+  
+    </main>
+    <footer>
+        <div class="upperfoot">
+            <img class="logofoot" src="images/bountiful_logo.png" alt="teton logo with black text">
+            <p class="address"> Teton Mountain Chamber of Commerce <br> North Main Street <br> Driggs, ID 83422</p>
+            <p class="info">info@tetoncc.org <br> 208-504-3445 <br> <a href="https://goo.gl/maps/msRU2qkYxTp7WyvAA" class="map">Location Map</a> </p>
+        </div>
+        <div class="foot">
+       <p> &copy; 2023 .:|:. Jason C. Harrison .:|:. Idaho </p> 
+        <p>Last Updated: &nbsp;<span id="lastmod"></span></p>
+        </div>
+    </footer>
+<script src="scripts/lastMod.js"></script>
+<script src="scripts/navbar.js"></script>
+<script src="scripts/weatherapi.js"></script>
+</body>
+</html>
