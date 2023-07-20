@@ -53,10 +53,17 @@
                 <!-- fieldset 2 -->
                 <fieldset>
                     <h2> Select a fruit:</h2>
-                    <select onchange="getfruits(this.value)" name="fruits" id="fruits" disabled>
-                        <option value="">Choose a fruit</option>
+                    <select onchange="show(this)" id="fruits" >
+                        <option value="">---Choose a fruit---</option>
+                    </select>
+                    <select onchange="show(this)"  id="fruits" >
+                        <option value="">---Choose a fruit---</option>
+                    </select>
+                    <select onchange="show(this)" id="fruits" >
+                        <option value="">---Choose a fruit---</option>
                     </select>
 
+                    <p id="msg"></p>
                 </fieldset>
                 <input type="submit" value="Get My Membership" class="submitBtn">
             
