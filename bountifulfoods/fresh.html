@@ -39,7 +39,7 @@
         </div>
     </header>
     <main class="mainFresh">
-        <h1 class="drink_head">Membership Application</h1>
+        <h1 class="drink_head">Build Your Drink</h1>
         <!-- fieldset 1 -->
             <form method="get" action="thanks.html">
                 <fieldset>
@@ -62,11 +62,11 @@
                     <select onchange="show(this)" id="fruits" >
                         <option value="">---Choose a fruit---</option>
                     </select>
-
-                    <p id="msg"></p>
+                    <label class="sbs" for="specialinstrusctions">Special Instructions<textarea id="specialInst" rows="4"  spellcheck="false"></textarea></label>   
                 </fieldset>
-                <input type="submit" value="Get My Membership" class="submitBtn">
-            
+                <input type="submit" value="Create Drink" class="submitBtn">
+                
+                <p id="msg"></p>
             </form>
     </main>
     <footer>
@@ -82,7 +82,6 @@
     </footer>
 <script src="scripts/lastMod.js"></script>
 <script src="scripts/navbar.js"></script>
-<script src="scripts/weatherapi.js"></script>
 <script src="scripts/data.js"></script>
 </body>
 </html>
