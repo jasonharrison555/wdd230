@@ -13,7 +13,7 @@ body {
   grid-template-rows: 1fr 500px 1fr ;
   margin: auto;
   padding: 5px;
-  min-height: 100vh;
+  height: auto;
  
 }
 .title {
@@ -35,7 +35,7 @@ main {
   text-align: left;
   padding-top: 30px;
   color: white;
-  
+  height: auto;
 }
 
 header {
