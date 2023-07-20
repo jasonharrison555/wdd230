@@ -212,8 +212,6 @@ p{
 .beach{
   width: 100%;
   
-  display: cover;
-
 
 }
 footer {
@@ -276,7 +274,7 @@ footer {
 .mylogo {grid-column: 2;}
 .logo{
   width: 40%;
-  display: cover;
+ 
 }
 .map {
   color: white;
