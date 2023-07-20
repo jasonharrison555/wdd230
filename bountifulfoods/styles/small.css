@@ -71,7 +71,7 @@ h1 {
   .fruit_drink{
     width: 40%;
     padding-top: 25px;
-    padding-left: 150px;
+    padding-left: 120px;
   }
   .head2 {
     color: #ffffff;
@@ -193,11 +193,11 @@ ul {
   
 
   .linkedin:hover{
-    background-color: #1618a9;
+    background-color: #ffc53f;
     transition-duration: 0.5s;
   }
   .facebook:hover{
-    background-color: #1618a9;
+    background-color: #ffc53f;
     transition-duration: 0.5s;
   }
 .summary {
@@ -220,7 +220,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr ;
   padding-top: 150px;
-  border-top: black solid 5px;
+  border-top: #ffc53f solid 5px;
   padding-top: 10px;
   background-color:#0f6c1e;
   color: #ffffff;
@@ -249,7 +249,7 @@ footer {
   
 }
 .foot {
-  border-top: 1px solid rgba(0, 0, 0, 0.8);
+  border-top: 1px solid #ffc53f;
   justify-content: center;
   text-align: center;
   background-color:white;
