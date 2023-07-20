@@ -1,11 +1,4 @@
 @media only screen and (min-width: 64rem) {
-
-    ul{
-        display: flex;
-        flex-direction: row;
-        
-    }
-
    header {
     border: none;
     height: auto;
@@ -31,36 +24,16 @@ border-radius: 15px;
 text-decoration: none;
 
 }
+ul{
+  display: flex;
+  flex-direction: row;
+  
+}
 
 nav a:hover {      
   color: #36454f; 
   } 
-.navbar{
-  grid-column: 2;
-  font-size: 2em;
-  padding-top: 100px;
-}
 
-.topNav {
- padding: 0px;
-}
-.logos{
- 
-  grid-column: 3;
-  
-}
-.bottomNav{
-  display: grid;
-  justify-content: center;
-  text-align: center;
-}
-.mylogo {
-  grid-column: 1;}
-
-.links {
-  font-size: 1.4em;
-  padding: 100px 0px 100px 0px;
-}
 
 .banner_img{
 width: 100%;
@@ -99,6 +72,13 @@ width: 100%;
  padding-top: 15px;
 }
 
+.mylogo {
+  grid-column: 1;}
+
+.links {
+  font-size: 1.4em;
+  padding: 100px 0px 100px 0px;
+}
 .action_head,
 .summary_head,
 .weather_head {
@@ -156,6 +136,20 @@ font-size: 2em;
   grid-column: 1;
   grid-row: 1/3;
 }
+.navbar{
+  grid-column: 2;
+  font-size: 2em;
+  padding-top: 100px;
+}
+
+.topNav {
+ padding: 0px;
+}
+.logos{
+ 
+  grid-column: 3;
+  
+}
 nav {
   text-align: center;
   text-decoration: none;
@@ -165,7 +159,6 @@ nav {
     display: grid;
     grid-template-columns: 1fr ;
     padding-top: 150px;
-    border-top: black solid 5px;
     padding-top: 10px;
     background-color:#0f6c1e;
 
@@ -198,7 +191,7 @@ nav {
     text-align: center;
     background-color:white;
     color: black;
-    border-top: black solid 5px;
+    border-top: #ffc53f solid 5px;
     grid-row: 4;
     grid-column: 1/4;
   }

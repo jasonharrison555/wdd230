@@ -91,6 +91,10 @@ main .mainIndex {
     height: auto;
     border-top: #ffc53f solid 10px;
   }
+  .mainFresh {
+    border-top: #ffc53f solid 10px;
+    border-bottom: #ffc53f solid 10px;
+  }
   .topNav{
    display: grid;
   }
@@ -218,7 +222,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr ;
   padding-top: 150px;
-  border-top: #ffc53f solid 5px;
+  
   padding-top: 10px;
   background-color:#0f6c1e;
   color: #ffffff;
@@ -252,20 +256,9 @@ footer {
   text-align: center;
   background-color:white;
   color: black;
-  border-top: black solid 5px;
+  border-top: #ffc53f 5px;
   grid-row: 4;
   grid-column: 1/4;
-}
-
-
-
-.bottomNav{
-
-  font-size: 25px;
-  font-weight: 700;
-
-  background-color: #3B5759;
-  opacity: 80%;
 }
 .logos {
   padding-left: 15px;
