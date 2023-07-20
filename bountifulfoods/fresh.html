@@ -43,7 +43,7 @@
         <!-- fieldset 1 -->
             <form method="get" action="thanks.html">
                 <fieldset>
-                    <legend>Applicant Information</legend>
+                    <legend>Create your drink!</legend>
                     <label class="top">First Name* <input type="text" name="fname" required></label>
                     <label class="top">Last Name* <input type="text" name="lname" required></label>
                     <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
@@ -52,7 +52,7 @@
     
                 <!-- fieldset 2 -->
                 <fieldset>
-                    <h2> Select a fruit:</h2>
+                    <legend>Select a fruit</legend>
                     <select onchange="show(this)" id="fruits" >
                         <option value="">---Choose a fruit---</option>
                     </select>
@@ -62,7 +62,7 @@
                     <select onchange="show(this)" id="fruits" >
                         <option value="">---Choose a fruit---</option>
                     </select>
-                    <label class="sbs" for="specialinstrusctions">Special Instructions<textarea id="specialInst" rows="4"  spellcheck="false"></textarea></label>   
+                    <label class="sbs" for="specialinstrusctions">Special Instructions:<textarea id="specialInst" rows="4"  spellcheck="false"></textarea></label>   
                 </fieldset>
                 <input type="submit" value="Create Drink" class="submitBtn">
                 
@@ -82,6 +82,6 @@
     </footer>
 <script src="scripts/lastMod.js"></script>
 <script src="scripts/navbar.js"></script>
-<script src="scripts/data.js"></script>
+<script src="scripts/drinks.js"></script>
 </body>
 </html>

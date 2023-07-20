@@ -75,9 +75,10 @@ width: 100%;
     background-repeat: no-repeat;
 } 
 .fruit_drink{
-  width: 50%;
+  width: 42%;
   grid-row: 1/3;
   padding-left: 150px;
+  padding-top: 45px;
 }
 .drink {
   display: grid;
@@ -92,8 +93,12 @@ width: 100%;
 .drinkbutton{
   grid-row: 2;
   grid-column:2;
-  padding-left: 50px;
+ width: 50%;
+ height: 50%;
+ justify-content: center;
+ padding-top: 15px;
 }
+
 .action_head,
 .summary_head,
 .weather_head {
@@ -102,13 +107,13 @@ width: 100%;
 .weather_div{
   display: grid;
   grid-template-columns: 1fr 1fr ;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-rows: 200px 200px ;
 }
 .weather {
   display: grid;
   grid-template-columns: 200px 200px;
   grid-template-rows: 200px 200px;
-  background-color: #0f6c1e;
+
   grid-row: 1/3;
 }
 .hum{
@@ -197,4 +202,38 @@ nav {
     grid-row: 4;
     grid-column: 1/4;
   }
+  /*------about us------*/
+  .contact  {
+    text-align: center;
+  }
+  .map_cont{
+    text-align: center;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+  }
+  .about_t{
+  grid-column: 2;
+  grid-row: 1;
+  padding-left: 15px;
+  padding-top:  140px;
+  margin: 0%;
+  font-size: 2em;
+  }
+  .about_p {
+    font-size: 1.5em;
+  
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0%;
+    padding: 0px 0px 0px 15px;
+  }
+  .about_img{
+    grid-column: 1;
+    grid-row: 1/3;
+    width: 100%;
+  }
+
 }
