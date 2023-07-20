@@ -3,7 +3,7 @@ const currentHum = document.querySelector('#current-hum');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('img');
 
-const url= 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&exclude=hourly,minutely&units=imperial&appid=89a5dfd4094babce2245c6d363403b06'
+const url= 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=89a5dfd4094babce2245c6d363403b06'
 
 async function apiFetch() {
     try {

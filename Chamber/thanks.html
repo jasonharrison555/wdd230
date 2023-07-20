@@ -113,3 +113,8 @@ function(){
 <p id="result"></p>
 </fieldset>
 <input type="submit" value="Get My Membership" class="submitBtn">
+
+fetch('scripts/drinks.json')
+.then(function(response){
+  return response.json();
+})

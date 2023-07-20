@@ -1,4 +1,5 @@
-
+{
+    "drinks": [
     {
       "genus": "Malus",
       "name": "Apple",
@@ -545,3 +546,5 @@
         "sugar": 6
       }
     }
+  ]
+}
